@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("https://www.belgradewaterfront.com/static/uploads/la-casa-de-caffe-01.jpg");
+    background-attachment: fixed;
+  }
+  
+  header {
+    background-color:red;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin: 40px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  nav a:hover{
+    color: #dcb712;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  h1{
+    text-align: center;
+    color: #fbff0c;
+    font-size: 40px;
+    font-style: italic;
+    background-color: rgba(221, 175, 129, 0.4);
+    padding: 39px 60px 0 60px;
+  }
+  .caff{
+    height:300px ;
+    width: 450px;
+    border-radius: 20px;
+    border: solid 3px black;
+  }
+ h2{
+    margin: 0 0 0 160px;
+    color: red;
+ } 
+ P{
+  background-color: rgba(162, 118, 73, 0.5);
+  font-size: 40px;
+  padding: 40px;
+  color: #fff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+ .divv{
+    text-align: center;
+ }
+ .image{
+    height: 350px;
+    width: 500px;
+    border: solid 6px black;
+    border-radius: 20px;
+    text-align: center;
+ }
+ input{
+    font-size: 50px;
+    width: 1475px;
+ }
+ button{
+    font-size: 50px;
+    background-color: blue;
+ }
+ button:hover{
+    color: aqua;
+ }
+ .clos{
+    font-size: 85px;
+    color: red;
+    padding: 180px 0 0 0;
+    background-color: transparent;
+ }
+.closed{
+    color:yellow;
+    font-size: 40px;
+    background-color: rgba(162, 73, 73, 0.5)
+}
+header{
+    width: 1700px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #866a16;
+}
+.card {
+    padding: 20px 0 20px 0;
+    height: 550px;
+    width: 300px;
+    border: 3px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px;
+    background-color: #614e16;
+}
+.card:hover {
+    padding: 20px 0 20px 0;
+    height: 550px;
+    width: 300px;
+    border: 3px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px;
+    background-color: #7e6825;
+}
+
+.imgg{
+    margin: 0 0 0 16px;
+    width: 265px;
+    height: 200px;
+    border: solid 3px white;
+    border-radius: 20px;
+}
+h3{
+    text-align: center;
+    color: #a09245;
+}
+.ppp{
+    text-align: center;
+    padding: 0 20px;
+}
+
+.price {
+    margin: 0 0 0 20px;
+    color: green;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #afa24c;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a08245;
+}
+.box{
+    display: flex;
+    margin: 0 0 0 220px;
+}
