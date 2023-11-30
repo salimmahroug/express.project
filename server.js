@@ -40,7 +40,7 @@ app.get('/contact', (req, res) => {
   res.sendFile(path.join(__dirname, 'contact.html'));
 });
 
-// Démarrage du serveur et écoute sur le port spécifié
+// Démarrage du serveur
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
